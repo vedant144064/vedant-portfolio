@@ -17,6 +17,8 @@ body {
     font-family: Poppins ,sans-serif;
     overflow-x: hidden;
     /* position: fixed; */
+    background-attachment: fixed;
+
 
    
 }
@@ -214,6 +216,7 @@ section {
     text-align: center;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   .iconhob {
@@ -257,6 +260,7 @@ section {
     text-align: center;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   .iconhob2{
     display: flex;
@@ -282,3 +286,9 @@ section {
   #nasa{
     margin-right: 15rem;
   }
+ .sticky{
+    bottom:0;
+  }
+
+
+  
