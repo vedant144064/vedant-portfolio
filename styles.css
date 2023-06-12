@@ -1,0 +1,284 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url('./sebastian-knoll-LNl8vN2JHW8-unsplash.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* background: (white,black,blue); */
+    height: 100vh;
+    /* background: linear-gradient(rgb(9, 9, 9),rgb(78, 78, 78)); */
+    font-family: Poppins ,sans-serif;
+    overflow-x: hidden;
+    /* position: fixed; */
+
+   
+}
+
+header nav{
+    height: 8vh;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(120, 120, 120,0.3);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100vw;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    padding-right: 10rem;
+    width: 100vh;
+}
+header ul a{
+    text-decoration: none;
+    color: rgb(157, 248, 228);
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+}
+.one{
+   padding-left: 4rem;
+   padding-right: 2;
+}
+.two{
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+.innovate,.ideate,.create{
+    color: white;
+    /* padding: 1rem 70rem; */
+font-family: Poppins,sans-serif;
+font-size: 5vh;
+width: fit-content;
+}
+.sugardaddy{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+model-viewer{
+ height: 30rem;
+ width: 30rem;
+ margin: auto;
+ align-items: center;
+ justify-items: center;
+ 
+
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.main{
+    color: rgb(157, 248, 228);
+   display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 4rem;
+    padding-top: 3rem;
+    /* opacity: 65%; */
+
+}
+.sugarmommy{
+    color: rgb(157, 248, 228);
+    display: flex;
+     justify-content: center;
+     /* align-items: center; */
+     font-size: 4rem;
+     padding-top: 3rem;
+     /* opacity: 65%; */
+     height: 70vh;
+
+}
+section {
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    height: 100vw;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #abt,
+  #cdng,
+  #three {
+    background-color:transparent;
+    padding-top: 50px;
+    /* height: 100%; */
+    font-family: 'Poppins', sans-serif;
+    opacity: 75%;
+    
+  }
+
+  .aboutme {
+    color: #a4bfca;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  
+  .content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 0;
+  }
+  
+  .head {
+    border-bottom: 2px dotted rgb(255, 255, 255, 0.2);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .deta {
+    width: 100%;
+    flex-basis: 60%;
+    color: #fff;
+  }
+  
+  .deta h1,
+  .clo h2 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .deta-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .deta p,
+  .clo p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;    margin-top: 30px;
+    font-weight: 400;
+    line-height: 1.65;
+  }
+  
+  .clo {
+    width: 100%;
+    height: 100%;
+    flex-basis: 35%;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .bb {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: underline #fdf3d9 2px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .clo p {
+    margin-top: 2px;
+  }
+  
+  .clo p:nth-child(2) {
+    margin-top: 30px;
+  }
+  
+  .hoobies h1 {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;   
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: solid 2px #00a3e1;
+    display: inline;
+  }
+  
+  .hoobies {
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconhob {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    height: fit-content;
+    margin-top: 50px;
+    color: #fff;
+  }
+  
+  .icndtl {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .iconhob h3 {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
+  }
+  .skills h1 {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;   
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: solid 2px #00a3e1;
+    display: inline;
+  }
+  .skills {
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconhob2{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    /* height: 100%; */
+    justify-content: space-around;
+    height: fit-content;
+    margin-top: 50px;
+    color: #fff;
+    margin-bottom: 55rem;
+
+  }
+  .iconhob2 h3{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
+  }
+  #isro{
+    margin-left: 15rem;
+  }
+  #nasa{
+    margin-right: 15rem;
+  }
